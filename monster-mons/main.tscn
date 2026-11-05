@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://dhnig8dxsf5tm"]
+
+[ext_resource type="Script" uid="uid://bg8ensqpdtjhi" path="res://Main.gd" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://cj25epi0ho6c7" path="res://player.tscn" id="2_0xm2m"]
+
+[node name="Main" type="Control" unique_id=345892689]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ig7tw")
+
+[node name="Overworld" type="Node2D" parent="." unique_id=405476959]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="Overworld" unique_id=480067469]
+
+[node name="Player" parent="Overworld" unique_id=1273449113 instance=ExtResource("2_0xm2m")]
+
+[node name="DialogueBox" type="Panel" parent="." unique_id=1984454595]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -116.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="DialogueText" type="RichTextLabel" parent="DialogueBox" unique_id=1993078627]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -64.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="StarterMenu" type="VBoxContainer" parent="." unique_id=500210970]
+visible = false
+layout_mode = 0
+offset_left = -2.0
+offset_top = 2.0
+offset_right = 1150.0
+offset_bottom = 647.0
+
+[node name="Button" type="Button" parent="StarterMenu" unique_id=1218590684]
+layout_mode = 2
+text = "Pica"
+
+[node name="Button2" type="Button" parent="StarterMenu" unique_id=1986099582]
+layout_mode = 2
+text = "Grassy"
+
+[node name="Button3" type="Button" parent="StarterMenu" unique_id=211999523]
+layout_mode = 2
+text = "Flamer"

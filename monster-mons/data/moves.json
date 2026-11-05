@@ -1,0 +1,16 @@
+{
+  "moves": [
+    {
+      "name": "Headbutt",
+      "type": "normal",
+      "power": 10,
+      "pp": 25
+    },
+    {
+      "name": "Water Pulse",
+      "type": "water",
+      "power": 20,
+      "pp": 15
+    }
+  ]
+}
