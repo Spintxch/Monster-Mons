@@ -1,8 +1,12 @@
 {
     "name": "Player",
-    "money": 30,
+    "money": 1000,
     "badges": [],
     "mons": [],
+    "inventory": {
+        "potion": 5,
+        "capture_pod": 10
+    },
     "areas_visited": {
         "town_1": false
     }

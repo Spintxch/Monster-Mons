@@ -1,0 +1,22 @@
+{
+    "normal": {
+        "rock": 0.5,
+        "ghost": 0.0
+    },
+    "water": {
+        "fire": 2.0,
+        "water": 0.5,
+        "grass": 0.5,
+        "rock": 2.0
+    },
+    "grass": {
+        "water": 2.0,
+        "fire": 0.5,
+        "grass": 0.5
+    },
+    "fire": {
+        "grass": 2.0,
+        "water": 0.5,
+        "fire": 0.5
+    }
+}
