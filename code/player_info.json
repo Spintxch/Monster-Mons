@@ -1,0 +1,9 @@
+{
+    "name": "Player",
+    "money": 30,
+    "badges": [],
+    "mons": [],
+    "areas_visited": {
+        "town_1": false
+    }
+}

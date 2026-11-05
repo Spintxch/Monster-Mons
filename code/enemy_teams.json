@@ -1,0 +1,16 @@
+{
+  "trainers": {
+    "route_1_trainer": {
+      "name": "Rival",
+      "team": [
+        {
+          "species": "Pica",
+          "level": 5,
+          "xp": 0,
+          "hp": 18,
+          "moves": ["Headbutt", "Water Pulse"]
+        }
+      ]
+    }
+  }
+}
