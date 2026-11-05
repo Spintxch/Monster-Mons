@@ -1,2 +1,3 @@
-This is a battle monsters game. It uses Pygame for visuals
-Just a fun personal project, both to make a game and to improve my skills
+This is a monster-battling game built with Godot.
+
+It's a personal project to make a game and improve my skills.
